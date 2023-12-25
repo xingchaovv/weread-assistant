@@ -1,0 +1,64 @@
+.app {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.app:has(.readerControls) {
+    overflow: hidden;
+}
+
+#routerView:has(.readerControls) {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 6px;
+    height: 100vh;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.readerControls {
+    position: relative;
+    margin: 0;
+    padding-bottom: 24px;
+    left: auto;
+    bottom: auto;
+    justify-content: flex-end;
+}
+
+.app_content:not(#routerView) {
+    flex: 1;
+    margin: 0;
+    max-width: none !important;
+    overflow-y: auto;
+}
+
+.readerTopBar {
+    position: sticky;
+    max-width: none;
+}
+
+#routerView div:has(.readerCatalog) {
+    width: 360px;
+}
+
+.wr_mask {
+    display: none !important;
+}
+
+.readerCatalog {
+    display: flex !important;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    left: auto;
+    width: auto;
+    height: 100vh;
+}
+
+.readerCatalog_list {
+    flex: 1;
+    padding: 0;
+}
+
+.readerCatalog_bookInfo {
+    display: none;
+}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* 主框架 */
+.readerContent {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+/* 目录 */
+.readerCatalog {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    left: auto;
+    height: 100vh;
+}
+
+/* 内容 */
+.readerContent .app_content {
+    order: 1;
+    flex: 1;
+    margin: 0;
+    max-width: none;
+    overflow-y: auto;
+}
+
+.readerCatalog_list {
+    flex: 1;
+    padding: 0;
+}
+
+/* 目录-书籍信息 */
+.readerCatalog_bookInfo {
+    display: none; /* 隐藏 */
+}
+
+/* 章节项 */
+.chapterItem {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 36px;
+    padding-right: 36px
+}
+
+/* 章节项-文字 */
+.chapterItem .chapterItem_text {
+    font-size: 14px;
+}
+
+span.readerTopBar_title_link {
+    /*display: none;*/
+}
+
+.readerTopBar .readerTopBar_right {
+    display: none;
+}
+
+.readerControls {
+    left: auto;
+    right: 1%;
+}
+
+.readerTopBar {
+    position: sticky;
+    max-width: none;
+}
+
+.wr_mask {
+    display: none;
+}
