@@ -16,7 +16,7 @@
 
 ## 安装
 
-1. 从链接 [archive/main.zip](archive/main.zip) 下载整个项目的 ZIP 包，然后解压缩，最后保存到本地电脑的一个目录里。
+1. 从链接 [main.zip](https://github.com/xingchaovv/weread-assistant/archive/main.zip) 下载整个项目的 ZIP 包，然后解压缩，最后保存到本地电脑的一个目录里。
 
 如下图，将项目文件夹“weread-assistant-main”，保存到了用户目录下的“应用程序”目录。
 
@@ -24,4 +24,10 @@
 
 2. 按照以下说明加载扩展，其中“扩展程序目录”就是上个步骤保存的项目文件夹。
 
-![Chrome 扩展安装说明](docs/Chrome 扩展安装说明.png)
+操作步骤
+
+![Chrome 扩展安装说明](docs/Chrome%20扩展安装说明.png)
+
+实际效果
+
+![扩展安装演示](docs/扩展安装演示.png)
