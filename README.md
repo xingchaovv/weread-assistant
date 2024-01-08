@@ -1,22 +1,27 @@
 # 微信阅读助手
 
-默认 action
-```
-"action": {
-    "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
-}
-```
+一个浏览器扩展，用于提升微信阅读（网页版）阅读体验，支持谷歌 Chrome、微软 Edge 等浏览器。
 
-内容脚本
-```
-  "content_scripts": [
-    {
-      "js": ["scripts/content.js"],
-      "css": ["ReaderContentPage.css"],
-      "matches": [
-        "https://weread.qq.com/web/reader/*"
-      ]
-    }
-  ]
-```
+## 功能
+
+1. 在正文页面左侧始终显示目录，以方便快速切换章节、查找内容。
+
+启用扩展后的效果图：
+
+![使用扩展后效果](docs/使用扩展后效果.png)
+
+启用扩展前的效果图：
+
+![未使用扩展效果](docs/未使用扩展效果.png)
+
+## 安装
+
+1. 从链接 [archive/main.zip](archive/main.zip) 下载整个项目的 ZIP 包，然后解压缩，最后保存到本地电脑的一个目录里。
+
+如下图，将项目文件夹“weread-assistant-main”，保存到了用户目录下的“应用程序”目录。
+
+![保存到本地电脑上](docs/保存到本地电脑上.png)
+
+2. 按照以下说明加载扩展，其中“扩展程序目录”就是上个步骤保存的项目文件夹。
+
+![Chrome 扩展安装说明](docs/Chrome 扩展安装说明.png)

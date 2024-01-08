@@ -1,6 +1,6 @@
 {
-  "name": "WeRead Assistant",
-  "description": "TODO",
+  "name": "微信阅读助手",
+  "description": "一个浏览器扩展，用于提升微信阅读（网页版）阅读体验，支持谷歌 Chrome、微软 Edge 等浏览器。",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": [],
